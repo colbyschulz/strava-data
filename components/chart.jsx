@@ -69,6 +69,7 @@ const Chart = () => {
   return (
     <Wrapper>
       <Line
+        curve="natural"
         width={1000}
         height={500}
         data={parsedData()}
@@ -96,7 +97,7 @@ const Chart = () => {
             legendOffset: -40,
             legendPosition: 'middle'
         }}
-        pointSize={3}
+        pointSize={5}
         pointColor={{ theme: 'background' }}
         pointBorderWidth={2}
         pointBorderColor={{ from: 'serieColor' }}

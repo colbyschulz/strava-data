@@ -14,7 +14,7 @@ const Wrapper = styled.div`
 `;
 
 const Header = styled.h2`
-
+ text-align: center;
 `
 
 export default function App() {
