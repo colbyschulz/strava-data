@@ -9,7 +9,6 @@ import activityData from '../data/activities.csv';
 const Wrapper = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
   overflow-x: scroll;
   height: 800px;
 `

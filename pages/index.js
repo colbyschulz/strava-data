@@ -8,6 +8,7 @@ import Chart from '../components/chart';
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: center;
   height: 100vh;
   padding: 20px;
 `;
